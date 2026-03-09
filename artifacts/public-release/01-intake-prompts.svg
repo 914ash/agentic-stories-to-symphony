@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880" role="img" aria-label="Agentic Stories To Symphony">
+  <rect width="1400" height="880" fill="#07131a" rx="28"/>
+  <rect x="30" y="30" width="1340" height="820" fill="#0f1d25" stroke="#204154" stroke-width="2" rx="22"/>
+  <circle cx="80" cy="78" r="10" fill="#ff6b6b"/>
+  <circle cx="110" cy="78" r="10" fill="#ffd166"/>
+  <circle cx="140" cy="78" r="10" fill="#06d6a0"/>
+  <text x="190" y="86" fill="#9ac0d1" font-size="28" font-family="Consolas, 'Courier New', monospace">Agentic Stories To Symphony</text>
+  <text x="72" y="122" fill="#5d8295" font-size="22" font-family="Consolas, 'Courier New', monospace">agentic-stories-to-symphony public release fixture</text>
+  <g font-size="24" font-family="Consolas, 'Courier New', monospace"><text x="72" y="150" fill="#e5efe8">$ npm run intake -- --approve-as demo-reviewer --no-watch</text><text x="72" y="180" fill="#e5efe8"></text><text x="72" y="210" fill="#e5efe8">? Describe the product outcome</text><text x="72" y="240" fill="#e5efe8">&gt; Turn approved product requirements into Linear stories that Symphony can execute agentically.</text><text x="72" y="270" fill="#e5efe8"></text><text x="72" y="300" fill="#e5efe8">? List the intended users</text><text x="72" y="330" fill="#e5efe8">&gt; Product lead</text><text x="72" y="360" fill="#e5efe8">&gt; Delivery lead</text><text x="72" y="390" fill="#e5efe8"></text><text x="72" y="420" fill="#e5efe8">? Describe the core workflow</text><text x="72" y="450" fill="#e5efe8">&gt; Guide the operator through intake, approve the plan, project user stories into Linear,</text><text x="72" y="480" fill="#e5efe8">&gt; and let Symphony pick up the work.</text></g>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "name": "agentic-stories-to-symphony",
+  "version": "0.1.0",
+  "description": "Spec-first intake and Linear projection layer that feeds Symphony with agentically developed user stories.",
+  "type": "module",
+  "scripts": {
+    "artifacts:public": "tsx scripts/generate-public-release-assets.ts",
+    "build": "tsc -p tsconfig.json",
+    "intake": "tsx src/interfaces/terminal-intake.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.3.0",
+    "tsx": "^4.21.0",
+    "yaml": "^2.8.1"
+  }
+}

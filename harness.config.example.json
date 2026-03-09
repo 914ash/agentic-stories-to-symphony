@@ -1,0 +1,9 @@
+{
+  "approverAllowlist": ["demo-reviewer"],
+  "linear": {
+    "teamKey": "ASTS"
+  },
+  "watch": {
+    "pollIntervalSeconds": 15
+  }
+}
