@@ -1,7 +1,5 @@
 # Agentic Stories To Symphony Landing
 
-![Agentic Stories cover](../assets/covers/cover.svg)
-
 ## What This Is
 
 `agentic-stories-to-symphony` is a planning-first fork that turns ambiguous product input into approved, canonical spec revisions and deterministic Linear stories before execution begins.

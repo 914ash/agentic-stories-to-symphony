@@ -1,7 +1,5 @@
 # Agentic Stories To Symphony
 
-![Agentic Stories cover](assets/covers/cover.svg)
-
 Spec-first planning fork layered onto Symphony execution. This repo captures product intent, compiles canonical spec revisions, gates approval, projects deterministic Linear stories, and then hands those stories into Symphony-style agentic execution.
 
 ![Intake prompts](artifacts/public-release/01-intake-prompts.svg)
