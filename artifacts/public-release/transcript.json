@@ -1,0 +1,79 @@
+[
+  {
+    "kind": "multiline",
+    "message": "Describe the product outcome",
+    "response": "Turn approved product requirements into Linear stories that Symphony can execute agentically."
+  },
+  {
+    "kind": "multiline",
+    "message": "List the intended users",
+    "response": "Product lead\nDelivery lead"
+  },
+  {
+    "kind": "multiline",
+    "message": "Describe the core workflow",
+    "response": "Guide the operator through intake, approve the plan, project user stories into Linear, and let Symphony pick up the work."
+  },
+  {
+    "kind": "multiline",
+    "message": "List the must-have features",
+    "response": "Spec-first intake\nLinear story projection\nAgentic Symphony execution handoff"
+  },
+  {
+    "kind": "multiline",
+    "message": "List what is out of scope",
+    "response": "Tracker-first planning\nBi-directional sync from Linear"
+  },
+  {
+    "kind": "multiline",
+    "message": "List the implementation constraints",
+    "response": "Spec remains canonical\nApproval is explicit\nProjection is deterministic"
+  },
+  {
+    "kind": "status",
+    "message": "Outcome: Turn approved product requirements into Linear stories that Symphony can execute agentically.\nUsers: Product lead, Delivery lead\nFeatures: Spec-first intake, Linear story projection, Agentic Symphony execution handoff"
+  },
+  {
+    "kind": "select",
+    "message": "Review the compiled intake draft",
+    "response": "continue",
+    "choices": [
+      "Continue to approval",
+      "Edit answers",
+      "Save and exit"
+    ]
+  },
+  {
+    "kind": "confirm",
+    "message": "Approve this spec revision and write it to Linear?",
+    "response": true
+  },
+  {
+    "kind": "status",
+    "message": "# Agentic Stories To Symphony Workflow\n\n## Product Outcome\nTurn approved product requirements into Linear stories that Symphony can execute agentically.\n\n## Intended Users\n- Product lead\n- Delivery lead\n\n## Core Workflow\nGuide the operator through intake, approve the plan, project user stories into Linear, and let Symphony pick up the work.\n\n## Must-Have Features\n- Spec-first intake\n- Linear story projection\n- Agentic Symphony execution handoff\n\n## Out Of Scope\n- Tracker-first planning\n- Bi-directional sync from Linear\n\n## Constraints\n- Spec remains canonical\n- Approval is explicit\n- Projection is deterministic"
+  },
+  {
+    "kind": "status",
+    "message": "Projected ASTS-101 (issue-demo-1)"
+  },
+  {
+    "kind": "status",
+    "message": "Projected ASTS-102 (issue-demo-2)"
+  },
+  {
+    "kind": "status",
+    "message": "Projected ASTS-101 into Linear."
+  },
+  {
+    "kind": "status",
+    "message": "Symphony picked up ASTS-101."
+  },
+  {
+    "kind": "status",
+    "message": "ASTS-101 moved to In Progress."
+  },
+  {
+    "kind": "status",
+    "message": "ASTS-101 completed in Done."
+  }
+]

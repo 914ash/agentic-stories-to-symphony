@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+*.log
+.env
+WORKFLOW.md
+harness.config.json
+Screenshot *.png
+specs/**
+!specs/
+!specs/README.md
