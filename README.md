@@ -1,35 +1,44 @@
 # Agentic Stories To Symphony
 
-Spec-first planning fork layered onto Symphony execution. This repo captures product intent, compiles canonical spec revisions, gates approval, projects deterministic Linear stories, and then hands those stories into Symphony-style agentic execution.
+Agentic Stories To Symphony is a planning-to-execution fork that adds spec-first intake, approval, and deterministic Linear projection ahead of Symphony-style runtime execution. The repo is built around a simple claim: product intent should become an approved planning artifact before it becomes a queue of execution tasks.
 
 ![Intake prompts](artifacts/public-release/01-intake-prompts.svg)
 ![Linear projection](artifacts/public-release/05-linear-projection.svg)
 
-See [docs/landing.md](docs/landing.md) for the full landing walkthrough.
+- **Status:** Active fork / planning prototype
+- **Stack:** TypeScript, terminal workflow, Linear projection, public release artifacts
+- **Problem:** Product intent often gets converted into tickets too early, without a durable in-repo source of truth or an auditable planning boundary.
 
-## Why This Exists
+## Why This Repo Exists
 
-Base Symphony orchestration is strong at execution runtime behavior. This fork adds the planning front-end that many teams skip: intake, approval, and deterministic story projection before the runtime starts.
+- To capture intent before ticket creation
+- To make approval explicit before tracker write-back
+- To keep planning provenance attached to projected execution stories
+- To hand off better-defined work into Symphony-compatible execution
 
-## Fork Framing
+## What It Adds To The Base Symphony Model
 
-This is an implementation fork that extends Symphony workflow patterns. It does not claim upstream authorship of the Symphony model. The added value in this repo is the planning-to-execution contract and the evidence trail that supports it.
+- Guided terminal intake for product requirements
+- Canonical in-repo spec revisions
+- Approval gate before tracker projection
+- Deterministic Linear story projection with rerun-safe provenance
+- Execution watch flow for the handoff into agentic development
 
-## What It Adds
+## Workflow
 
-- guided intake for requirements capture
-- canonical in-repo spec revisions
-- approval gate before tracker writeback
-- deterministic Linear story projection with provenance
-- execution watch flow for agentic handoff
+1. Run intake.
+2. Review the compiled planning summary.
+3. Approve the revision.
+4. Project stories into Linear.
+5. Hand those stories to Symphony-compatible execution.
 
-## Quick Start
+## Run Locally
 
 Requirements:
 
 - Node.js 20+
 - Linear API key
-- local `WORKFLOW.md` copied from `WORKFLOW.example.md`
+- Local `WORKFLOW.md` copied from `WORKFLOW.example.md`
 
 ```bash
 npm ci
@@ -52,10 +61,13 @@ npm run intake -- --approve-as demo-reviewer
 - `npm run build`
 - `npm run artifacts:public`
 
-## Public Safety Notes
+## Current Limits
 
-- no live credentials are tracked in-repo
-- artifacts under `artifacts/public-release` are sanitized fixture outputs
-- workflow and tracker behavior is documented for auditable review
+- The current public slice proves planning, approval, and projection; it does not replace Symphony with a native end-to-end runtime in this repo.
+- Public screenshots are fixture-driven and sanitized for release.
 
-See [docs/landing.md](docs/landing.md), [ARCHITECTURE.md](ARCHITECTURE.md), and [docs/PLANS.md](docs/PLANS.md).
+## What To Read Next
+
+- `docs/USER_GUIDE.md`
+- `ARCHITECTURE.md`
+- `docs/PLANS.md`
